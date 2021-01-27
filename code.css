@@ -1,0 +1,23 @@
+.submitButton {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.infoTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 85%;
+}
+td, th {
+    border: 1px solid #aaaaaa;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
